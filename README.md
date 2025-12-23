@@ -80,14 +80,14 @@ It is implemented as a **multi-page Streamlit dashboard**, allowing users to exp
 
 Flight_Route_Analysis/
 │
-├── app.py                      # Main Streamlit application
-├── README.md                   # Project documentation (written by me)
+├── app.py                      # Main Streamlit app entry point
+├── README.md
 ├── requirements.txt
 │
 ├── data/
-│   └── flight_data.csv         # Large dataset (~63 MB)
+│   └── flight_data.csv         # Dataset (~63 MB)
 │
-├── pages/                      # Streamlit multipage modules
+├── pages/                      # Streamlit multipage files
 │   ├── 1_dataset_eda.py
 │   ├── 2_feature_engineering.py
 │   ├── 3_model_training.py
@@ -95,7 +95,7 @@ Flight_Route_Analysis/
 │   ├── 5_prediction_ranking.py
 │   └── 6_route_visualization.py
 │
-└── utils/                      # Reusable utility functions
+└── utils/                      # Reusable functions
     ├── preprocessing.py
     ├── feature_engineering.py
     └── modeling.py
